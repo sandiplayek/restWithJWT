@@ -128,7 +128,7 @@ module.exports = {
             const result = compareSync(body.password, results.password);
             if(result){
                 results.password = undefined;
-                const jsontoken = sign({result:results},'asdfg', {expiresIn: '1h'})
+                const jsontoken = sign({result:results}, process.env.SECURITY_SALT, {expiresIn: '1h'})
                 return res.json({
                     success:1,
                     message: 'Login successful',
