@@ -18,11 +18,21 @@ here password is test123 for all
 DBname = restapi
 
 
-//{
-	"firstName": "sita",
-    "lastName" : "Roy",
-    "gender" : "F",
-    "email" : "sita@test.com",
-    "password" :"test123",
-    "number" : 56789012
-}
+-- to login in DB
+-- {
+--     "email" : "sita@test.com",
+--     "password" :"test123"
+-- }
+
+
+
+-- To INSERT in DB after login -- 
+
+-- {
+-- 	"firstName": "sita",
+--     "lastName" : "Roy",
+--     "gender" : "F",
+--     "email" : "sita@test.com",
+--     "password" :"test123",
+--     "number" : 56789012
+-- }
