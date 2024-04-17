@@ -8,7 +8,6 @@ const {
 } = require('./user.service');
 const {genSaltSync, hashSync, compareSync} = require('bcrypt');
 const {sign} = require('jsonwebtoken')
-const {} = require('../../auth/token_validation')
 module.exports = {
     createUser: (req,res) =>{
         const body = req.body;
@@ -113,6 +112,7 @@ module.exports = {
     },
     login : (req,res) =>{
         const body=req.body;
+        console.log(body);
         getUserByUserEmail(body.email,(err,results)=>{
             if(err){
                 console.log(err);
