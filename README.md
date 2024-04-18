@@ -1,6 +1,6 @@
 # User need to login to create, update, delete, fetch data from the table
-# jwt middle ware is used to authorize user
-# @happy/joi middleware validation is used for login and create user post methods
+jwt middle ware is used to authorize user  
+@happy/joi middleware validation is used for login and create user post methods
 
 "dependencies": {
     "bcrypt": "^5.1.1", 
@@ -12,7 +12,6 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   }
- \
 
   # .env files
   APP_PORT = 5555
@@ -24,6 +23,6 @@ CONNECTION_LIMIT = 10
 SECURITY_SALT ='asdfg'
 
 # links 
-https://www.youtube.com/watch?v=F-1GD_F8jHg&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=5 \
+https://www.youtube.com/watch?v=F-1GD_F8jHg&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=5  
 https://www.youtube.com/watch?v=WfCJ3sHnLBM&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=1&t=145s
 
