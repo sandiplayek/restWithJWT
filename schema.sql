@@ -8,6 +8,9 @@ CREATE TABLE `registration` (
   `number` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+ALTER TABLE `registration` MODIFY `number` BIGINT;
+
+
 
 INSERT INTO `registration` (`id`, `firstName`, `lastName`, `gender`, `email`, `password`, `number`) VALUES
 (1, 'Atanu', 'Roy', 'm', 'atanu@test.com', '$2b$10$FZDriMJlzjIkOhN5R4MdNORVFmMK.foWxJtb/x2zN/6utbL1cOIHG', 1234567),
