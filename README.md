@@ -1,6 +1,6 @@
 # User need to login to create, update, delete, fetch data from the table
-// jwt middle ware is used to authorize user
-// happyjoi middleware validation is used for login and create user post methods
+# jwt middle ware is used to authorize user
+# @happy/joi middleware validation is used for login and create user post methods
 
 "dependencies": {
     "bcrypt": "^5.1.1",
