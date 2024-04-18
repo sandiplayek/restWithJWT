@@ -3,7 +3,7 @@
 # @happy/joi middleware validation is used for login and create user post methods
 
 "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^5.1.1", 
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
@@ -12,7 +12,7 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   }
-
+ \
 
   # .env files
   APP_PORT = 5555
