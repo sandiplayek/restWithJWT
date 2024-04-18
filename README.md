@@ -23,6 +23,7 @@ CONNECTION_LIMIT = 10
 SECURITY_SALT ='asdfg'
 
 # links 
+https://www.youtube.com/watch?v=WfCJ3sHnLBM&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=1&t=145s  
 https://www.youtube.com/watch?v=F-1GD_F8jHg&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=5  
-https://www.youtube.com/watch?v=WfCJ3sHnLBM&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=1&t=145s
+
 
